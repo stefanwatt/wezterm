@@ -26,6 +26,7 @@ config.window_padding = {
 }
 
 config.keys = require("keymaps")
+require("smart-splits").setup(config)
 config.window_close_confirmation = "NeverPrompt"
 config.audible_bell = "Disabled"
 return config

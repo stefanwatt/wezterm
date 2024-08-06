@@ -33,26 +33,26 @@ return {
 			size = { Percent = 20 },
 		}),
 	},
-	{
-		key = "LeftArrow",
-		mods = "SUPER|ALT",
-		action = act.ActivatePaneDirection("Left"),
-	},
-	{
-		key = "RightArrow",
-		mods = "SUPER|ALT",
-		action = act.ActivatePaneDirection("Right"),
-	},
-	{
-		key = "UpArrow",
-		mods = "SUPER|ALT",
-		action = act.ActivatePaneDirection("Up"),
-	},
-	{
-		key = "DownArrow",
-		mods = "SUPER|ALT",
-		action = act.ActivatePaneDirection("Down"),
-	},
+	-- {
+	-- 	key = "LeftArrow",
+	-- 	mods = "SUPER|ALT",
+	-- 	action = act.ActivatePaneDirection("Left"),
+	-- },
+	-- {
+	-- 	key = "RightArrow",
+	-- 	mods = "SUPER|ALT",
+	-- 	action = act.ActivatePaneDirection("Right"),
+	-- },
+	-- {
+	-- 	key = "UpArrow",
+	-- 	mods = "SUPER|ALT",
+	-- 	action = act.ActivatePaneDirection("Up"),
+	-- },
+	-- {
+	-- 	key = "DownArrow",
+	-- 	mods = "SUPER|ALT",
+	-- 	action = act.ActivatePaneDirection("Down"),
+	-- },
 	{
 		key = "h",
 		mods = "SUPER|ALT|SHIFT",
